@@ -211,6 +211,10 @@ body {
   border-radius: var(--radius);
 }
 
+.card--no-actions .card__tags {
+  margin-bottom: 0;
+}
+
 .card-grid {
   list-style: none;
   margin: 0;
