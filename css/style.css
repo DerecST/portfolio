@@ -200,6 +200,34 @@ body {
   color: var(--color-text-muted);
 }
 
+.genre__outro-title {
+  margin-top: 1.35rem;
+}
+
+.genre__outro {
+  margin: 0;
+  max-width: var(--max-width);
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: var(--color-text-muted);
+}
+
+.genre__outro-link {
+  font-weight: 600;
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.genre__outro-link:hover {
+  text-decoration: underline;
+}
+
+.genre__outro-link:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
 .genre__placeholder {
   margin: 0;
   max-width: var(--max-width);
@@ -380,6 +408,27 @@ body {
 .site-footer__inner {
   max-width: var(--max-width-wide);
   margin: 0 auto;
+}
+
+.site-footer__support {
+  margin: 0 0 1rem;
+  font-size: 0.875rem;
+}
+
+.site-footer__support-link {
+  font-weight: 600;
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.site-footer__support-link:hover {
+  text-decoration: underline;
+}
+
+.site-footer__support-link:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: 2px;
 }
 
 .social__list {
